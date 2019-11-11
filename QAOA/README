@@ -1,0 +1,5 @@
+This code implements the Quantum Approximate Optimization Algorithm to solve a simple maxcut problem on unweighted random graphs.
+The outer loop classical optimization for circuit parameters is implemented as a brute-force search on the parameter set.
+The code is generic in iterative parameter 'p'. Hence, User can specify and obtain results for any 'p' required.
+The code by default is implemented on the local machine based qiskit.Aer quantum computer simulator but, it can be changed 
+by specifiying a different backend.
