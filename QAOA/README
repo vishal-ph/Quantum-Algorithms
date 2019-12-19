@@ -1,3 +1,6 @@
+You can use this notebook as an introductory example; intended for beginners learning about Quantum Computing with QISKIT. (I 
+tried to make it as self-contained as possible)
+\
 This code implements the Quantum Approximate Optimization Algorithm to solve a simple maxcut problem on unweighted random graphs.
 The outer loop classical optimization for circuit parameters is implemented as a brute-force search on the parameter set.
 The code is generic in iterative parameter 'p'. Hence, User can specify and obtain results for any 'p' required.
